@@ -25,6 +25,14 @@ public class CustomLogger {
         System.out.println(header() + "Done!");
     }
 
+    public void interruptedOnEnd() {
+        System.out.println(header() + "Has been interrupted - on the end of run method");
+    }
+
+    public void interruptedDuringWait() {
+        System.out.println(header() + "Has been interrupted - in WAIT state");
+    }
+
     public void message(String message) {
         System.out.println(header() + message);
     }
