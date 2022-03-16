@@ -1,4 +1,4 @@
-package cloud.cholewa.basic.runnable_lesson;
+package cloud.cholewa.basic.lessons.week2.runnable_lesson;
 
 public class RunnableLesson implements Runnable {
 

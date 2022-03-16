@@ -1,4 +1,4 @@
-package cloud.cholewa.basic.join_lesson;
+package cloud.cholewa.basic.lessons.week2.join_lesson;
 
 public class JoinLesson implements Runnable {
 

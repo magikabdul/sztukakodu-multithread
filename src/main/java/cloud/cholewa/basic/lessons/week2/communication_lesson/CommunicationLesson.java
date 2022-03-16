@@ -1,4 +1,4 @@
-package cloud.cholewa.basic.communication_lesson;
+package cloud.cholewa.basic.lessons.week2.communication_lesson;
 
 import cloud.cholewa.basic.helpers.CustomLogger;
 

@@ -1,4 +1,4 @@
-package cloud.cholewa.basic.thread_lesson;
+package cloud.cholewa.basic.lessons.week2.thread_lesson;
 
 public class ThreadLesson {
 

@@ -1,13 +1,14 @@
-package cloud.cholewa.basic.join_lesson;
+package cloud.cholewa.basic.lessons.week2.stopping_lesson;
 
 public class Application {
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Starting");
 
-        Thread thread = new Thread(new JoinLesson());
+        Thread thread = new Thread(new StoppingLesson());
         thread.start();
-        thread.join();
+        Thread.sleep(5000);
+        thread.interrupt();
 
         System.out.println("Done");
     }

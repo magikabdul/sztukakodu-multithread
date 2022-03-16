@@ -1,4 +1,4 @@
-package cloud.cholewa.basic.stopping_lesson;
+package cloud.cholewa.basic.lessons.week2.stopping_lesson;
 
 public class StoppingLesson implements Runnable {
 
